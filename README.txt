@@ -1,5 +1,13 @@
 Developing better Civic Services through Crowdsourcing: The Twitter Case Study
 
+Civic technology is technology that promotes civic engagement or allows the government to provide citizens services and to establish partnerships with the public. 'Civic technology' describes all public sector and city life innovations, but government technology is a more fitting word for that broader group. In order to bridge the gap between citizens and government we have used twitter as a platform for crowdsourcing. After analyzing the problem, citizens can voluntarily provide solutions for the problem which inclines to Civic tech purpose.
+
+Here, we have fetched the tweets from the Twitter platform and have applied LDA topic modelling method which categorizes whether the topics have been correctly identified or not with the help of coherence score.
+
+Then, we have added a deep learning model as classifier to classify the tweets to it's respective topic. For that, we have used a reuter's dataset which gives us the news as our training dataset and labels will be respective topic name.
+
+At the end, you can find the twitter data visualization which gives you the more details about the data that we have received through the twitter.
+
 To run the given python code on twitter case study. Follow the below steps:
 
 1. Run the given cell chunks in the jupyter notebook or google colab. All the cells have comments within it to understand the code.
